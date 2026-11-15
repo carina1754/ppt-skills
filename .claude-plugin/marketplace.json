@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ppt-skills",
+  "description": "팀 공용 발표 자료 스킬 묶음: 한국어 장표 절차(ppt-maker)와 HTML 슬라이드 생성기(frontend-slides)",
+  "owner": {
+    "name": "팀 공용"
+  },
+  "plugins": [
+    {
+      "name": "ppt-maker",
+      "description": "청중, 개요, 형식 고르기, 한국어 글꼴, AI 티 점검표, 그림 확인까지 하는 팀 공용 장표 절차",
+      "source": "./plugins/ppt-maker",
+      "category": "productivity",
+      "tags": ["presentations", "slides", "pptx", "korean"]
+    },
+    {
+      "name": "frontend-slides",
+      "description": "Zero-dependency HTML presentation generator with safe presets, bold template-library styles, PPT conversion, and anti-AI-slop design philosophy. (upstream zarazhangrui/frontend-slides 9906a34, MIT)",
+      "source": "./plugins/frontend-slides",
+      "category": "productivity",
+      "tags": ["presentations", "slides", "html", "design", "powerpoint", "templates"]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ppt-skills",
-  "description": "팀 공용 발표 자료 스킬 묶음: 한국어 장표 절차(ppt-maker)와 HTML 슬라이드 생성기(frontend-slides)",
+  "description": "팀 공용 발표 자료 스킬 묶음: 한국어 장표 절차(ppt-maker), HTML 슬라이드(frontend-slides), HTML로 영상 만들기(hyperframes)",
   "owner": {
     "name": "팀 공용"
   },
@@ -11,14 +11,44 @@
       "description": "청중, 개요, 형식 고르기, 한국어 글꼴, AI 티 점검표, 그림 확인까지 하는 팀 공용 장표 절차",
       "source": "./plugins/ppt-maker",
       "category": "productivity",
-      "tags": ["presentations", "slides", "pptx", "korean"]
+      "tags": [
+        "presentations",
+        "slides",
+        "pptx",
+        "korean"
+      ]
     },
     {
       "name": "frontend-slides",
       "description": "Zero-dependency HTML presentation generator with safe presets, bold template-library styles, PPT conversion, and anti-AI-slop design philosophy. (upstream zarazhangrui/frontend-slides 9906a34, MIT)",
       "source": "./plugins/frontend-slides",
       "category": "productivity",
-      "tags": ["presentations", "slides", "html", "design", "powerpoint", "templates"]
+      "tags": [
+        "presentations",
+        "slides",
+        "html",
+        "design",
+        "powerpoint",
+        "templates"
+      ]
+    },
+    {
+      "name": "hyperframes",
+      "description": "HyperFrames by HeyGen: HTML로 영상 만들기(소개 영상, 자막, 차트, 세로 영상, 발표 모드 슬라이드쇼). upstream heygen-com/hyperframes를 그대로 가리킴, Apache-2.0",
+      "source": {
+        "source": "github",
+        "repo": "heygen-com/hyperframes"
+      },
+      "homepage": "https://hyperframes.heygen.com",
+      "license": "Apache-2.0",
+      "category": "productivity",
+      "tags": [
+        "video",
+        "animation",
+        "html",
+        "captions",
+        "slideshow"
+      ]
     }
   ]
 }

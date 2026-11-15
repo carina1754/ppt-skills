@@ -1,6 +1,6 @@
 {
   "name": "ppt-maker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "팀 공용 발표 자료 절차: 청중과 개요 먼저, 형식 고르기(frontend-slides 또는 pptx), 한국어 글꼴, AI 티 점검표, 모든 장 그림 확인",
   "skills": "./skills/",
   "author": {
